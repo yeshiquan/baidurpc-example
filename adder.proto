@@ -1,0 +1,17 @@
+// Converted from adder.idl by public/mcpack2pb/idl2proto
+syntax="proto2";
+import "idl_options.proto";
+option (idl_support) = true;
+
+option cc_generic_services = true;
+
+message RequestMessage
+{
+    required int32 a = 1; 
+    required int32 b = 2; 
+}
+
+message ResultMessage
+{
+    required int32 sum = 1; 
+}

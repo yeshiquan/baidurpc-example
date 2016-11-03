@@ -1,0 +1,14 @@
+{  
+    "require": {
+        "vega/socket": "dev-master"
+    },
+    "repositories": [
+        {  
+            "type": "composer",
+            "url": "http://packagist.baidu.com"
+        },
+        {  
+            "packagist": false
+        }
+    ]
+}

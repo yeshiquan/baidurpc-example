@@ -3,8 +3,8 @@
 #### How to build
 
 ```bash
-../../../mcpack2pb/idl2proto adder.idl > adder.proto
 comake2 -UB -J8 -j8
+../../../mcpack2pb/idl2proto adder.idl > adder.proto
 comake2 -P
 make -sj8 
 ```
