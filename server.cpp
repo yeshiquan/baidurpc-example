@@ -48,6 +48,8 @@ public:
             return;
         }
 
+        LOG(INFO) << "Request, a = " << req_msg.a() << ", b = " << req_msg.b();
+
         ResultMessage res_msg;
         mcpack::MessageHandler res_handler = mcpack::find_message_handler("ResultMessage");
         res_msg.set_sum(req_msg.a() + req_msg.b());
